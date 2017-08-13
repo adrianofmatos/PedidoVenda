@@ -37,4 +37,8 @@
 
 	</dependencies>
 
+	<build>
+		<finalName>PedidoVenda</finalName>
+	</build>
+
 </project>
