@@ -4,14 +4,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.OneToMany;
-
-@Entity
-public class Cliente implements Serializable {
+public class Usuario implements Serializable {
 
 	/**
 	 * 
@@ -21,12 +14,9 @@ public class Cliente implements Serializable {
 	private Long id;
 	private String nome;
 	private String email;
-	private String documentoReceitaFederal;
-	private TipoPessoa tipo;
-	private List<Endereco> enderecos = new ArrayList<Endereco>();
-	
-	@Id
-	@GeneratedValue
+	private String senha;
+	private List<Grupo> grupos = new ArrayList<Grupo>();
+
 	public Long getId() {
 		return id;
 	}
@@ -45,25 +35,19 @@ public class Cliente implements Serializable {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	public String getDocumentoReceitaFederal() {
-		return documentoReceitaFederal;
+	public String getSenha() {
+		return senha;
 	}
-	public void setDocumentoReceitaFederal(String documentoReceitaFederal) {
-		this.documentoReceitaFederal = documentoReceitaFederal;
+	public void setSenha(String senha) {
+		this.senha = senha;
 	}
 	
-	public TipoPessoa getTipo() {
-		return tipo;
+	
+	public List<Grupo> getGrupos() {
+		return grupos;
 	}
-	public void setTipo(TipoPessoa tipo) {
-		this.tipo = tipo;
-	}
-	@OneToMany(mappedBy = "cliente", cascade = CascadeType.ALL)
-	public List<Endereco> getEnderecos() {
-		return enderecos;
-	}
-	public void setEnderecos(List<Endereco> enderecos) {
-		this.enderecos = enderecos;
+	public void setGrupos(List<Grupo> grupos) {
+		this.grupos = grupos;
 	}
 	@Override
 	public int hashCode() {
@@ -80,7 +64,7 @@ public class Cliente implements Serializable {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Cliente other = (Cliente) obj;
+		Usuario other = (Usuario) obj;
 		if (id == null) {
 			if (other.id != null)
 				return false;

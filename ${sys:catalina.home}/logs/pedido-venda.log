@@ -1,0 +1,94 @@
+2017-08-24 22:11:23,018 INFO  [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [
+	name: PedidoPU
+	...]
+2017-08-24 22:11:23,116 INFO  [org.hibernate.Version] HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-24 22:11:23,117 INFO  [org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+2017-08-24 22:11:23,181 INFO  [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-24 22:11:23,372 INFO  [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator] HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2017-08-24 22:11:23,387 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/curso-sisjee
+2017-08-24 22:11:23,387 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001001: Connection properties: {user=root}
+2017-08-24 22:11:23,387 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001003: Autocommit mode: false
+2017-08-24 22:11:23,507 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001007: JDBC isolation level: <unknown>
+2017-08-24 22:12:15,170 INFO  [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [
+	name: PedidoPU
+	...]
+2017-08-24 22:12:15,281 INFO  [org.hibernate.Version] HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-24 22:12:15,282 INFO  [org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+2017-08-24 22:12:15,308 INFO  [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-24 22:12:15,403 INFO  [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator] HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2017-08-24 22:12:15,406 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/curso-sisjee
+2017-08-24 22:12:15,406 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001001: Connection properties: {user=root}
+2017-08-24 22:12:15,406 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001003: Autocommit mode: false
+2017-08-24 22:12:15,501 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001007: JDBC isolation level: <unknown>
+2017-08-24 22:50:35,343 INFO  [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [
+	name: PedidoPU
+	...]
+2017-08-24 22:50:35,451 INFO  [org.hibernate.Version] HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-24 22:50:35,452 INFO  [org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+2017-08-24 22:50:35,487 INFO  [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-24 22:50:35,591 INFO  [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator] HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2017-08-24 22:50:35,594 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/curso-sisjee
+2017-08-24 22:50:35,595 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001001: Connection properties: {user=root, password=****}
+2017-08-24 22:50:35,595 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001003: Autocommit mode: false
+2017-08-24 22:50:35,680 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001007: JDBC isolation level: <unknown>
+2017-08-24 22:51:06,217 WARN  [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator] HHH000342: Could not obtain connection to query metadata : Connections could not be acquired from the underlying database!
+2017-08-24 22:51:06,246 INFO  [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-24 22:51:06,260 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] HHH000422: Disabling contextual LOB creation as connection was null
+2017-08-24 22:51:25,335 INFO  [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [
+	name: PedidoPU
+	...]
+2017-08-24 22:51:25,428 INFO  [org.hibernate.Version] HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-24 22:51:25,429 INFO  [org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+2017-08-24 22:51:25,478 INFO  [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-24 22:51:25,586 INFO  [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator] HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2017-08-24 22:51:25,590 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/curso-sisjee
+2017-08-24 22:51:25,591 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001001: Connection properties: {user=root, password=****}
+2017-08-24 22:51:25,591 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001003: Autocommit mode: false
+2017-08-24 22:51:25,692 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001007: JDBC isolation level: <unknown>
+2017-08-24 22:59:14,002 INFO  [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [
+	name: PedidoPU
+	...]
+2017-08-24 22:59:14,146 INFO  [org.hibernate.Version] HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-24 22:59:14,148 INFO  [org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+2017-08-24 22:59:14,178 INFO  [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-24 22:59:14,314 INFO  [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator] HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2017-08-24 22:59:14,318 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/curso-sisjee
+2017-08-24 22:59:14,318 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001001: Connection properties: {user=root, password=****}
+2017-08-24 22:59:14,318 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001003: Autocommit mode: false
+2017-08-24 22:59:14,443 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001007: JDBC isolation level: <unknown>
+2017-08-24 22:59:14,821 INFO  [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-24 22:59:14,871 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-08-24 23:02:03,480 INFO  [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [
+	name: PedidoPU
+	...]
+2017-08-24 23:02:03,575 INFO  [org.hibernate.Version] HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-24 23:02:03,577 INFO  [org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+2017-08-24 23:02:03,607 INFO  [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-24 23:02:03,699 INFO  [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator] HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2017-08-24 23:02:03,702 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/curso-sisjee
+2017-08-24 23:02:03,702 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001001: Connection properties: {user=root, password=****}
+2017-08-24 23:02:03,703 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001003: Autocommit mode: false
+2017-08-24 23:02:03,799 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001007: JDBC isolation level: <unknown>
+2017-08-24 23:02:04,114 INFO  [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-24 23:02:04,152 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-08-24 23:02:04,394 INFO  [org.hibernate.validator.internal.util.Version] HV000001: Hibernate Validator 6.0.2.Final
+2017-08-24 23:02:04,624 INFO  [org.hibernate.orm.connections.access] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@59a67c3a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-08-24 23:02:04,641 INFO  [org.hibernate.orm.connections.access] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@10b892d5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-08-24 23:02:04,775 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@1b9ea3e3'
+2017-08-24 23:14:14,030 INFO  [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [
+	name: PedidoPU
+	...]
+2017-08-24 23:14:14,127 INFO  [org.hibernate.Version] HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-24 23:14:14,128 INFO  [org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+2017-08-24 23:14:14,158 INFO  [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-24 23:14:14,253 INFO  [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator] HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2017-08-24 23:14:14,258 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/curso-sisjee
+2017-08-24 23:14:14,258 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001001: Connection properties: {user=root, password=****}
+2017-08-24 23:14:14,259 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001003: Autocommit mode: false
+2017-08-24 23:14:14,363 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001007: JDBC isolation level: <unknown>
+2017-08-24 23:14:14,691 INFO  [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-24 23:14:14,753 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-08-24 23:14:15,050 INFO  [org.hibernate.validator.internal.util.Version] HV000001: Hibernate Validator 6.0.2.Final
+2017-08-24 23:14:15,281 INFO  [org.hibernate.orm.connections.access] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4e9658b5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-08-24 23:14:15,299 INFO  [org.hibernate.orm.connections.access] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2d35442b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-08-24 23:14:15,510 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3a80515c'
