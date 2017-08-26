@@ -162,3 +162,20 @@
 2017-08-26 06:27:53,628 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
 2017-08-26 06:27:53,932 INFO  [org.hibernate.validator.internal.util.Version] HV000001: Hibernate Validator 6.0.2.Final
 2017-08-26 06:27:54,216 INFO  [org.hibernate.orm.connections.access] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1c05a54d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-08-26 20:11:19,845 INFO  [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [
+	name: PedidoPU
+	...]
+2017-08-26 20:11:20,066 INFO  [org.hibernate.Version] HHH000412: Hibernate Core {5.2.10.Final}
+2017-08-26 20:11:20,067 INFO  [org.hibernate.cfg.Environment] HHH000206: hibernate.properties not found
+2017-08-26 20:11:20,092 INFO  [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-08-26 20:11:20,325 INFO  [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator] HHH000130: Instantiating explicit connection provider: org.hibernate.connection.C3P0ConnectionProvider
+2017-08-26 20:11:20,330 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost/bdp_pedido
+2017-08-26 20:11:20,330 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001001: Connection properties: {user=root, password=****}
+2017-08-26 20:11:20,330 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001003: Autocommit mode: false
+2017-08-26 20:11:20,424 INFO  [org.hibernate.c3p0.internal.C3P0ConnectionProvider] HHH10001007: JDBC isolation level: <unknown>
+2017-08-26 20:11:20,748 INFO  [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-08-26 20:11:20,790 INFO  [org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl] HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+2017-08-26 20:11:21,091 INFO  [org.hibernate.validator.internal.util.Version] HV000001: Hibernate Validator 6.0.2.Final
+2017-08-26 20:11:21,390 INFO  [org.hibernate.orm.connections.access] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5d332969] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-08-26 20:11:21,422 INFO  [org.hibernate.orm.connections.access] HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2899a8db] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-08-26 20:11:22,731 INFO  [org.hibernate.tool.schema.internal.SchemaCreatorImpl] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2a415aa9'
