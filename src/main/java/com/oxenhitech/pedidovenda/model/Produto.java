@@ -2,9 +2,15 @@ package com.oxenhitech.pedidovenda.model;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.List;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+
+@Entity
 public class Produto implements Serializable {
 
 	/**
@@ -14,27 +20,39 @@ public class Produto implements Serializable {
 
 	private Long id;
 	private String nome;
+	private String sku;
 	private BigDecimal valorUnitario;
 	private Integer quantidadeEstoque;
 	private Categoria categoria;
+
+	@Id
+	@GeneratedValue
 	public Long getId() {
 		return id;
 	}
+	
 	public void setId(Long id) {
 		this.id = id;
 	}
+
+	@Column(nullable = false, length=80)
 	public String getNome() {
 		return nome;
 	}
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+	
+	@Column(name="valor_unitario", nullable = false, precision = 10, scale = 2)
 	public BigDecimal getValorUnitario() {
 		return valorUnitario;
 	}
+	
 	public void setValorUnitario(BigDecimal valorUnitario) {
 		this.valorUnitario = valorUnitario;
 	}
+	
+	@Column(name="quantidade_estoque", nullable = false, length = 5)
 	public Integer getQuantidadeEstoque() {
 		return quantidadeEstoque;
 	}
@@ -42,12 +60,24 @@ public class Produto implements Serializable {
 		this.quantidadeEstoque = quantidadeEstoque;
 	}
 	
+	@ManyToOne
+	@JoinColumn(name = "categoria_id", nullable = false)
 	public Categoria getCategoria() {
 		return categoria;
 	}
 	public void setCategoria(Categoria categoria) {
 		this.categoria = categoria;
 	}
+	
+	@Column(nullable = false, length = 20, unique = true)
+	public String getSku() {
+		return sku;
+	}
+
+	public void setSku(String sku) {
+		this.sku = sku == null ? null : sku.toUpperCase();
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
