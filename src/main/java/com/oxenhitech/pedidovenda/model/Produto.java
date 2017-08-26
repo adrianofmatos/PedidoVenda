@@ -17,6 +17,8 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
+import com.oxenhitech.pedidovenda.validation.SKU;
+
 @Entity
 @Table(name="produto")
 public class Produto implements Serializable {
@@ -83,7 +85,7 @@ public class Produto implements Serializable {
 		this.categoria = categoria;
 	}
 	
-	@NotBlank
+	@NotBlank @SKU
 	@Column(nullable = false, length = 20, unique = true)
 	public String getSku() {
 		return sku;
