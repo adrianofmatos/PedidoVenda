@@ -21,7 +21,7 @@ public class Teste {
 		
 		EntityTransaction trx = manager.getTransaction();
 		trx.begin();
-		
+/*		
 		Cliente cliente = new Cliente();
 		cliente.setNome("João das Couves2");
 		cliente.setEmail("joao@dascouves.com");
@@ -78,7 +78,7 @@ public class Teste {
 		produto.setValorUnitario(new BigDecimal(2.21));
 		
 		manager.persist(produto);
-
+*/
 		trx.commit();
 	}
 	
