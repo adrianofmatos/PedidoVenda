@@ -1,13 +1,37 @@
 package com.oxenhitech.pedidovenda.controller;
 
-import javax.enterprise.context.RequestScoped;
+import java.io.Serializable;
+import java.util.List;
+
+import javax.faces.bean.ViewScoped;
 import javax.inject.Named;
 
+import com.oxenhitech.pedidovenda.model.Categoria;
+import com.oxenhitech.pedidovenda.model.Produto;
+
 @Named
-@RequestScoped
-public class CadastroProdutoBean {
-	public void salvar() {
-		// TODO Auto-generated method stub
-		throw new RuntimeException("Teste de Exceção");
+@ViewScoped
+public class CadastroProdutoBean implements Serializable {
+
+	private static final long serialVersionUID = 1L;
+	
+	private Produto produto;
+	
+	private List<Categoria> categoriasRaizes;
+	
+	public CadastroProdutoBean() {
+		produto = new Produto();
 	}
+		
+	public void salvar() {
+	}
+
+	public Produto getProduto() {
+		return produto;
+	}
+
+	public List<Categoria> getCategoriasRaizes() {
+		return categoriasRaizes;
+	}
+	
 }

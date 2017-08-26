@@ -18,9 +18,9 @@ import org.apache.commons.logging.LogFactory;
 import com.oxenhitech.pedidovenda.service.NegocioException;
 
 public class JsfExceptionHandler extends ExceptionHandlerWrapper {
-	
-	private static Log log = LogFactory.getLog(JsfExceptionHandler.class);
 
+	private static Log log = LogFactory.getLog(JsfExceptionHandler.class);
+	
 	private ExceptionHandler wrapped;
 	
 	public JsfExceptionHandler(ExceptionHandler wrapped) {
